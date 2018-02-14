@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<singleTable:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:singleTable="http://www.hundsun.com/singletable" chineseName="银行间资产处理配置表" file="qs_tassetdealconfig_bank.sql">
+  <histories modifiedDate="2017-05-17 11:21" version="1.0.0.5" modified="新建资源"/>
+  <root>
+    <children name="回购" items="//@items.8 //@items.0 //@items.1 //@items.2 //@items.3 //@items.9 //@items.10 //@items.11 //@items.12 //@items.21 //@items.22 //@items.23 //@items.24 //@items.13 //@items.14 //@items.15 //@items.16 //@items.4 //@items.5 //@items.6 //@items.7 //@items.17 //@items.18 //@items.19 //@items.20"/>
+    <children name="债券" items="//@items.29 //@items.30 //@items.40 //@items.31 //@items.42 //@items.32 //@items.33 //@items.41 //@items.34 //@items.43 //@items.35 //@items.36 //@items.37 //@items.38 //@items.39 //@items.44"/>
+  </root>
+  <items xsi:type="singleTable:MasterItem" busin_flag="2104" amount_change_direction="0" cost_change_direction="0" profit_change_direction="0" dividend_change_direction="0" subject_change_direction="0" subject_no="0" cash_change_direction="2" deposit_change_direction="0" match_order_no="0" match_serial_no="0" external_result="0" day_type="0" day_count="0" complete_point="0"/>
+  <items xsi:type="singleTable:MasterItem" busin_flag="2108" amount_change_direction="0" cost_change_direction="0" profit_change_direction="0" dividend_change_direction="0" subject_change_direction="0" subject_no="0" cash_change_direction="1" deposit_change_direction="0" match_order_no="0" match_serial_no="0" external_result="0" day_type="0" day_count="0" complete_point="0"/>
+  <items xsi:type="singleTable:MasterItem" busin_flag="2105" amount_change_direction="0" cost_change_direction="0" profit_change_direction="0" dividend_change_direction="0" subject_change_direction="2" subject_no="1204" cash_change_direction="1" deposit_change_direction="0" match_order_no="0" match_serial_no="0" external_result="0" day_type="0" day_count="0" complete_point="0"/>
+ <relation master="qs_tassetdealconfig_bank" type="jres.db.table"/>
+</singleTable:Root>
